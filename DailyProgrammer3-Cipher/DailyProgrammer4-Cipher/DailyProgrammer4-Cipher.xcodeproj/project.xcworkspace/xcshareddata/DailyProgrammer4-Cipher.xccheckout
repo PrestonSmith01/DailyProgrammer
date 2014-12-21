@@ -14,11 +14,11 @@
 		<string>https://github.com/PrestonSmith01/DailyProgrammer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DailyProgrammer4-Cipher/DailyProgrammer4-Cipher.xcodeproj</string>
+	<string>DailyProgrammer3-Cipher/DailyProgrammer4-Cipher/DailyProgrammer4-Cipher.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A8A3E0527DB6A8B1842DA589DAEAFB09A4E09DDC</key>
-		<string>../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/PrestonSmith01/DailyProgrammer.git</string>

@@ -17,23 +17,20 @@ int menu();
 
 int main(void)
 {
-         //c     //choice     //s
     char unitA, selection[2], unitB[MAXSIZE];
     while(1){
         menu();
         gets(selection);
         
         if((selection[0]=='e')||(selection[0]=='E')){
-            puts("Text encryption: ");
             gets(unitB);
             usrDecrpytion(unitB);
-        }//end E
+        }
         else if((selection[0]=='d'||selection[0]=='D')){
-            puts("Decrypt: ");
             gets(unitB);
             usrDecrpytion(unitB);
-        }//end D
+        }
         else break;
-    } // end
+    }
     return 0;
-} // end main
+}
