@@ -47,28 +47,17 @@ func profileSet(){
     var randCity = issueLocation[locationRand]
     println(standardIdent)
     println(passportIdent)
-    //allow player to accept/reject immagration
-    
-
-   /* if (randCity == city){
-        println("Correct")
-    }
-        else if (randCity != city){ 941-544-6869
-            println("False")
-        }
-*/
-    
     }
 
 profileSet()
 
-func input() -> String{
-//restarts game
-   var fileHandle = NSFileHandle.fileHandleWithStandardInput()
-    println("Accept or Reject")
-    if var userData = fileHandle.availableData{
-        var userString = NSString(data: userData, encoding: NSUTF8StringEncoding)
-        println("You have been \(userString)")
-    }
+
+func input() {
+    var fileHandle = NSFileHandle.fileHandleWithStandardInput()
+    println("Accepted or Rejected")
+    let userData = fileHandle.availableData
+    let userString = NSString(data: userData, encoding: NSUTF8StringEncoding)
+    println("You have been \(userString!)")
 }
 input()
+
